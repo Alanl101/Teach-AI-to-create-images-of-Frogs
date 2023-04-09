@@ -94,4 +94,4 @@ def gan_train(epoch, batch_size, saving_interval):
     # save final generator model
     generator.save('final')
 
-gan_train(epoch=20000, batch_size=128, saving_interval=2000)
+gan_train(epoch=40000, batch_size=128, saving_interval=2000)
